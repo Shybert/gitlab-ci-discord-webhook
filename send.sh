@@ -54,7 +54,7 @@ if [ -z $LINK_ARTIFACT ] || [ $LINK_ARTIFACT = false ] ; then
       "author": {
         "name": "Pipeline #'"$CI_PIPELINE_IID"' '"$STATUS_MESSAGE"' - '"$CI_PROJECT_PATH_SLUG"'",
         "url": "'"$CI_PIPELINE_URL"'",
-        "icon_url": "https://gitlab.com/favicon.png"
+        "icon_url": "https://gitlab.com/uploads/-/system/group/avatar/6881234/apple-touch-icon-precomposed.png"
       },
       "title": "'"$COMMIT_SUBJECT"'",
       "url": "'"$URL"'",
@@ -82,7 +82,7 @@ else
 			"author": {
 			"name": "Pipeline #'"$CI_PIPELINE_IID"' '"$STATUS_MESSAGE"' - '"$CI_PROJECT_PATH_SLUG"'",
 			"url": "'"$CI_PIPELINE_URL"'",
-			"icon_url": "https://gitlab.com/favicon.png"
+			"icon_url": "https://gitlab.com/uploads/-/system/group/avatar/6881234/apple-touch-icon-precomposed.png"
 			},
 			"title": "'"$COMMIT_SUBJECT"'",
 			"url": "'"$URL"'",
